@@ -86,7 +86,8 @@ jobs:
       - name: Build AppImage
         run: |
             cd ${{github.workspace}}
-            SIGN=1 ./linuxdeploy-x86_64.AppImage --executable AppDir/usr/bin/sauer_client --desktop-file AppDir/usr/share/applications/org.sauerbraten.Sauerbraten.desktop --icon-file AppDir/usr/share/icons/hicolor/128x128/apps/org.sauerbraten.Sauerbraten.png --appdir AppDir --output appimage
+            ### SIGN=1 ./linuxdeploy-x86_64.AppImage --executable AppDir/usr/bin/sauer_client --desktop-file AppDir/usr/share/applications/org.sauerbraten.Sauerbraten.desktop --icon-file AppDir/usr/share/icons/hicolor/128x128/apps/org.sauerbraten.Sauerbraten.png --appdir AppDir --output appimage
+            ./linuxdeploy-x86_64.AppImage --executable AppDir/usr/bin/sauer_client --desktop-file AppDir/usr/share/applications/org.sauerbraten.Sauerbraten.desktop --icon-file AppDir/usr/share/icons/hicolor/128x128/apps/org.sauerbraten.Sauerbraten.png --appdir AppDir --output appimage
             mv -f ${{github.workspace}}/Sauerbraten-x86_64.AppImage Sauerbraten-${{ steps.date.outputs.time }}-2020.12.29-x86_64.AppImage
 
       - name: Upload artifact
