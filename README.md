@@ -2,7 +2,7 @@ Sauerbraten AppImage
 --------------------
 [![Build status](https://github.com/tx00100xt/Sauerbraten/actions/workflows/appimage_ci.yml/badge.svg)](https://github.com/tx00100xt//Sauerbraten/actions/)
 [![License: ZLIB](https://img.shields.io/badge/License-ZLIB-blue.svg)](https://raw.githubusercontent.com/tx00100xt/Sauerbraten/refs/heads/master/LICENSE)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/tx00100xt/Sauerbraten)](https://github.com/tx00100xt/Sauerbraten/releases/tag/2020.12.29)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/tx00100xt/Sauerbraten)](https://github.com/tx00100xt/Sauerbraten/releases/tag/Version.2020.12.29)
 [![Github downloads](https://img.shields.io/github/downloads/tx00100xt/Sauerbraten/total.svg?logo=github&logoColor=white&style=flat-square&color=E75776)](https://github.com/tx00100xt/Sauerbraten/releases/)
 
 <h1 align="center">
