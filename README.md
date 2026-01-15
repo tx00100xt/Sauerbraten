@@ -19,34 +19,12 @@ All credits here:
 http://sauerbraten.org/  
 https://sourceforge.net/projects/sauerbraten/
 ## Running
-Download the AppImages from the release page! Then, make the AppImage an executable by entering `chmod +x $FILE` in a terminal or by right-clicking the file then selecting "Properties" then "Permissions", and checking the executable checkbox. Then, double-`click the AppImage to run **Sauerbraten**. To add command line key enter in the terminal:
-```
-./Sauerbraten-20260102-2020.12.29-x86_64.AppImage  -yourkey
-```
+Download the AppImages from the release page! Then, make the AppImage an executable by entering `chmod +x $FILE` in a terminal or by right-clicking the file then selecting "Properties" then "Permissions", and checking the executable checkbox. Then, double-`click the AppImage to run **Sauerbraten**. 
 
 ## Game data
 This package provides the engine and all data. Saved config files here:
 ```
     ~/.sauerbraten
-```
-
-## Verify
-All AppImages are signed, including those compiled using GitHub Action.  
-You can check the application signature by running the command in the terminal:
-```
-./Sauerbraten-20260102-2020.12.29-x86_64.AppImage  --appimage-signature
-```
-Get keyid and verify:  
-```
-./Sauerbraten-20260102-2020.12.29-x86_64.AppImage  --appimage-signature | gpg --list-packets | grep keyid
-
-```
-```
-:signature packet: algo 1, keyid CDC41982C027BAAA
-```
-```
-gpg --recv-keys --keyserver keyserver.ubuntu.com  CDC41982C027BAAA
-
 ```
 
 ### Build status
