@@ -6,3 +6,6 @@ Exec=sauerbraten
 Terminal=false
 Type=Application
 Categories=Game;ActionGame;
+X-AppImage-License=MIT
+X-AppImage-Payload-License=MIT
+X-AppImage-Version=b64c9ec
